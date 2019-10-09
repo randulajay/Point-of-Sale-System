@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.pos.controller.SearchOrdersFormController">
+   <children>
+      <TextField fx:id="txtSearch" layoutX="41.0" layoutY="161.0" prefHeight="28.0" prefWidth="518.0" />
+      <Label layoutX="41.0" layoutY="134.0" prefHeight="17.0" prefWidth="518.0" text="Enter something to search here (eg. Order ID, Order Date, Customer ID, Customer Name, etc.)" />
+      <TableView fx:id="tblOrders" layoutX="19.0" layoutY="216.0" prefHeight="270.0" prefWidth="562.0">
+        <columns>
+          <TableColumn prefWidth="88.0" text="Order ID" />
+          <TableColumn prefWidth="89.0" text="Order Date" />
+            <TableColumn prefWidth="99.0" text="Customer ID" />
+            <TableColumn prefWidth="186.0" text="Customer Name" />
+            <TableColumn prefWidth="99.0" text="Total" />
+        </columns>
+      </TableView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="80.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0">
+         <fill>
+            <LinearGradient endX="0.04807692307692308" endY="0.7115384615384616">
+               <stops>
+                  <Stop color="#1598d6" />
+                  <Stop color="#e35d84" offset="0.02934786902081605" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView id="imgHome" fitHeight="60.0" fitWidth="65.0" layoutX="25.0" layoutY="16.0" onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/homw.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="268.0" layoutY="44.0" text="Search Orders">
+         <font>
+            <Font name="Lucida Sans Demibold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView id="sch" fitHeight="80.0" fitWidth="81.0" layoutX="173.0" layoutY="16.0" onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/search.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

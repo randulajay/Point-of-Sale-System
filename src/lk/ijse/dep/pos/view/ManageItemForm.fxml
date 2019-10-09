@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0"
+            style="-fx-background-color: white;" stylesheets="@style/manageitemform.css"
+            xmlns="http://javafx.com/javafx/10.0.1" fx:controller="lk.ijse.dep.pos.controller.ManageItemFormController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="72.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0"
+                   width="600.0">
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="#d3e535"/>
+                        <Stop color="WHITE" offset="1.0"/>
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Rectangle>
+        <ImageView id="imgHome" fitHeight="54.0" fitWidth="61.0" layoutX="14.0" layoutY="10.0"
+                   onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/homw.png"/>
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </ImageView>
+        <Label layoutX="242.0" layoutY="25.0" text="Manage Items">
+            <font>
+                <Font name="Lucida Sans Demibold" size="20.0"/>
+            </font>
+        </Label>
+        <JFXButton id="btnAddNewCustomer" layoutX="156.0" layoutY="222.0" onAction="#btnAddNew_OnAction"
+                   prefHeight="28.0" prefWidth="81.0" style="-fx-cursor: hand;" text="+ New Item"/>
+        <JFXTextField fx:id="txtCode" labelFloat="true" layoutX="133.0" layoutY="73.0" prefHeight="28.0"
+                      prefWidth="363.0" promptText="Item Code :"/>
+        <JFXTextField fx:id="txtDescription" labelFloat="true" layoutX="133.0" layoutY="112.0" prefHeight="28.0"
+                      prefWidth="363.0" promptText="Item Description :"/>
+        <JFXTextField fx:id="txtQtyOnHand" labelFloat="true" layoutX="133.0" layoutY="140.0" prefHeight="28.0"
+                      prefWidth="363.0" promptText="Qty. on Hand"/>
+        <JFXButton id="btnSave" fx:id="btnSave" layoutX="274.0" layoutY="222.0" onAction="#btnSave_OnAction"
+                   prefHeight="28.0" prefWidth="81.0" style="-fx-cursor: hand;" text="Save"/>
+        <JFXButton id="btnDelete" fx:id="btnDelete" layoutX="386.0" layoutY="222.0" onAction="#btnDelete_OnAction"
+                   prefHeight="28.0" prefWidth="81.0" style="-fx-cursor: hand;" text="Delete"/>
+        <TableView fx:id="tblItems" layoutX="7.0" layoutY="270.0" prefHeight="221.0" prefWidth="583.0">
+            <columns>
+                <TableColumn prefWidth="97.0" text="Code"/>
+                <TableColumn prefWidth="204.0" text="Description"/>
+                <TableColumn prefWidth="130.0" text="Qty. on Hand"/>
+                <TableColumn prefWidth="163.0" text="Unit Price"/>
+            </columns>
+        </TableView>
+        <JFXTextField fx:id="txtUnitPrice" labelFloat="true" layoutX="133.0" layoutY="175.0" prefHeight="28.0"
+                      prefWidth="363.0" promptText="Unit Price"/>
+    </children>
+</AnchorPane>

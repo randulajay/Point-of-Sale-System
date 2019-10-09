@@ -1,0 +1,49 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/bcmail-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/bcmail-jdk14-138.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/bcprov-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/bcprov-jdk14-138.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/bctsp-jdk14-1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/castor-core-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/castor-xml-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/commons-beanutils-1.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/commons-digester-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/core-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/ecj-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/icu4j-57.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/itext-2.1.7.js5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jackson-annotations-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jackson-core-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jackson-databind-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jakarta-regexp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jasperreports-6.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jasperreports.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/lucene-analyzers-common-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/lucene-core-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/lucene-queries-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/lucene-queryparser-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/lucene-sandbox-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/olap4j-0.9.7.309-JS-3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/spring-aop-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/spring-asm-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/spring-beans-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/spring-context-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/spring-core-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/spring-expression-3.0.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/stax-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/stax-api-1.0-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Jarfiles/JDBC/stax-api-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

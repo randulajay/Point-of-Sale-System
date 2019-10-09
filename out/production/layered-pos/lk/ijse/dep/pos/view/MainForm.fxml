@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.pos.controller.MainFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="28.0" prefHeight="65.0" prefWidth="422.0" text="FX Point of Sale System - JDBC POS" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgCustomer" fitHeight="94.0" fitWidth="97.0" layoutX="30.0" layoutY="136.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/customer.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imgItem" fitHeight="94.0" fitWidth="94.0" layoutX="172.0" layoutY="136.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/list.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imgOrder" fitHeight="94.0" fitWidth="94.0" layoutX="311.0" layoutY="136.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/checkput.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="imgViewOrders" fitHeight="94.0" fitWidth="94.0" layoutX="444.0" layoutY="136.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/search.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label fx:id="lblMenu" alignment="CENTER" layoutX="20.0" layoutY="252.0" prefHeight="26.0" prefWidth="577.0" text="Welcome" textAlignment="CENTER" textFill="#e74c3c">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDescription" alignment="CENTER" layoutX="22.0" layoutY="302.0" prefHeight="16.0" prefWidth="577.0" text="Please select one of above main operations to proceed">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="332.0" layoutY="400.0" onAction="#btnBackup_OnAction" prefHeight="28.0" prefWidth="97.0" style="-fx-background-color: #e74c3c; -fx-text-fill: black;" text="Backup DB" />
+      <JFXButton layoutX="201.0" layoutY="400.0" onAction="#btnRestore_OnAction" prefHeight="28.0" prefWidth="97.0" style="-fx-background-color: #2ecc71; -fx-text-fill: black;" text="Restore" />
+      <Pane layoutX="140.0" layoutY="80.0" prefHeight="4.0" prefWidth="339.0" style="-fx-background-color: #2c3e50;" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="245.0" layoutY="376.0" prefHeight="17.0" prefWidth="128.0" text="DATABASE" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Separator layoutX="159.0" layoutY="363.0" prefHeight="4.0" prefWidth="300.0" />
+      <Separator layoutX="161.0" layoutY="443.0" prefHeight="4.0" prefWidth="300.0" />
+      <Separator layoutX="159.0" layoutY="365.0" orientation="VERTICAL" prefHeight="80.0" prefWidth="4.0" />
+      <Separator layoutX="456.0" layoutY="365.0" orientation="VERTICAL" prefHeight="80.0" prefWidth="3.0" />
+   </children>
+</AnchorPane>
